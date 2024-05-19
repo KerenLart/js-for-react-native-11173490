@@ -30,6 +30,8 @@ function formatArrayStrings(num,str){
     return formattedString;
 }
 
+module.exports = { processArray, formatArrayStrings };
+
 const str = ["boy","class","FOR","poll"]
 const newNum =[2,3,4,5]
 const num = processArray(newNum)
